@@ -192,6 +192,16 @@ export default class Canvas extends React.Component<ICanvasProps, ICanvasState> 
         this.addRegions(duplicates);
     }
 
+    public zoomIn = async () => {
+        //add code for zoom in
+        console.log("Zoom in button clicked!");
+    }
+
+    public zoomOut = async () => {
+        //add code for zoom out
+        console.log("Zoom out button clicked!");
+    }
+
     public confirmRemoveAllRegions = () => {
         this.clearConfirm.current.open();
     }

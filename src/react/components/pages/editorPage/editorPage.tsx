@@ -555,6 +555,12 @@ export default class EditorPage extends React.Component<IEditorPageProps, IEdito
             case ToolbarItemName.PasteRegions:
                 this.canvas.current.pasteRegions();
                 break;
+            case ToolbarItemName.ZoomIn:
+                this.canvas.current.zoomIn();
+                break;
+            case ToolbarItemName.ZoomOut:
+                this.canvas.current.zoomOut();
+                break;
             case ToolbarItemName.RemoveAllRegions:
                 this.canvas.current.confirmRemoveAllRegions();
                 break;
