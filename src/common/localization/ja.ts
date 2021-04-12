@@ -233,6 +233,8 @@ export const japanese: IAppStrings = {
             copy: "領域をコピー", // Copy Regions,
             cut: "領域をカット",  // Cut Regions,
             paste: "領域を貼り付け", // Paste Regions,
+            zoomIn: "Zoom In",
+            zoomOut: "Zoom Out",
             removeAllRegions: "すべてのリージョンを削除", // Remove All Regions,
             previousAsset: "前のアセット",  // Previous Asset,
             nextAsset: "次のアセット",  // Next Asset,

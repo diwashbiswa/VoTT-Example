@@ -227,6 +227,8 @@ export const english: IAppStrings = {
             copy: "Copy Regions",
             cut: "Cut Regions",
             paste: "Paste Regions",
+            zoomIn: "Zoom In",
+            zoomOut: "Zoom Out",
             removeAllRegions: "Remove All Regions",
             previousAsset: "Previous Asset",
             nextAsset: "Next Asset",

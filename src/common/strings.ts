@@ -230,6 +230,8 @@ export interface IAppStrings {
             copy: string;
             cut: string;
             paste: string;
+            zoomIn: string;
+            zoomOut: string;
             removeAllRegions: string;
             previousAsset: string;
             nextAsset: string;

@@ -236,6 +236,8 @@ export const chinesetw: IAppStrings = {
             copy: "複製區域", // Copy Regions
             cut: "剪下區域", // Cut Regions
             paste: "貼上區域", // Paste Regions
+            zoomIn: "Zoom In",
+            zoomOut: "Zoom Out",
             removeAllRegions: "刪除所有區域", // Remove All Regions
             previousAsset: "以前的圖像數據", // Previous Asset
             nextAsset: "下一個圖像數據", // Next Asset

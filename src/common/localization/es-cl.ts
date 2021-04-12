@@ -229,6 +229,8 @@ export const spanish: IAppStrings = {
             copy: "Copiar regiones",
             cut: "Cortar regiones",
             paste: "Pegar regiones",
+            zoomIn: "Zoom In",
+            zoomOut: "Zoom Out",
             removeAllRegions: "Eliminar Todas Las Regiones",
             previousAsset: "Activo anterior",
             nextAsset: "Siguiente activo",

@@ -1,8 +1,9 @@
 import { ToolbarItemFactory } from "./providers/toolbar/toolbarItemFactory";
 import { ExportProject } from "./react/components/toolbar/exportProject";
 import { SaveProject } from "./react/components/toolbar/saveProject";
-import { ToolbarItemType } from "./react/components/toolbar/toolbarItem";
+import { ToolbarItem, ToolbarItemType } from "./react/components/toolbar/toolbarItem";
 import { strings } from "./common/strings";
+import { Toolbar } from "vott-ct/lib/js/CanvasTools/Toolbar/Toolbar";
 
 export enum ToolbarItemName {
     SelectCanvas = "selectCanvas",
@@ -18,6 +19,8 @@ export enum ToolbarItemName {
     SaveProject = "saveProject",
     ExportProject = "exportProject",
     ActiveLearning = "activeLearning",
+    ZoomIn = "zoomIn",
+    ZoomOut = "zoomOut",
 }
 
 export enum ToolbarItemGroup {
@@ -92,6 +95,24 @@ export default function registerToolbar() {
         group: ToolbarItemGroup.Regions,
         type: ToolbarItemType.Action,
         accelerators: ["CmdOrCtrl+V", "CmdOrCtrl+v"],
+    });
+
+    ToolbarItemFactory.register({
+        name: ToolbarItemName.ZoomIn,
+        tooltip: strings.editorPage.toolbar.zoomIn,
+        icon: "fa-search-plus",
+        group: ToolbarItemGroup.Regions,
+        type: ToolbarItemType.Action,
+        accelerators: ["CmdOrCtrl+Plus", "CmdOrCtrl+plus"],
+    });
+
+    ToolbarItemFactory.register({
+        name: ToolbarItemName.ZoomOut,
+        tooltip: strings.editorPage.toolbar.zoomOut,
+        icon: "fa-search-minus",
+        group: ToolbarItemGroup.Regions,
+        type: ToolbarItemType.Action,
+        accelerators: ["CmdOrCtrl+Minus", "CmdOrCtrl+minus"],
     });
 
     ToolbarItemFactory.register({

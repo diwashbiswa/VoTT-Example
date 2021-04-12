@@ -233,6 +233,8 @@ export const chinese: IAppStrings = {
             copy: "复制区域", // Copy Regions
             cut: "剪切区域", // Cut Regions
             paste: "粘贴区域", // Paste Regions
+            zoomIn: "Zoom In",
+            zoomOut: "Zoom Out",
             removeAllRegions: "删除所有区域", // Remove All Regions
             previousAsset: "以前的素材", // Previous Asset
             nextAsset: "下一项素材", // Next Asset

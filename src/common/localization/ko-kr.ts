@@ -234,6 +234,8 @@ export const korean: IAppStrings = {
             copy: "영역 복사", // Copy Regions,
             cut: "영역 잘라내기",  // Cut Regions,
             paste: "영역 붙여 넣기", // Paste Regions,
+            zoomIn: "Zoom In",
+            zoomOut: "Zoom Out",
             removeAllRegions: "모든 지역 제거", // Remove All Regions,
             previousAsset: "이전 Asset",  // Previous Asset,
             nextAsset: "다음 Asset",  // Next Asset,
